@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/register.css">
+
+</head>
+<body>
+    <div class="ym-layer">
+        <header>
+			<a href="#" onclick="window.history.go(-1)"></a>
+            <span>注册</span>
+        </header>
+        <div class="ym-content">
+            <div class="content-top">
+                <a href="log-in.html">登录</a>
+                <a href="javascript:;">注册</a>
+            </div>
+            <div class="sign-in">
+                <form>
+                    <input type="tel" name="" id="userTel" value="" placeholder="输入您的手机号">
+                    <div class="telMsg"></div>
+                    <input type="text" placeholder="输入验证码"><input type="button" value="验证码">
+                    <div class="textMsg"></div>
+                    <input type="password" id="userPwd" placeholder="输入密码 （不少于6位）"/>
+                    <div class="pwdMsg"></div>
+                    <input type="submit" id="register" value="注册">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

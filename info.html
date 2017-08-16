@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link href="css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/info.css">
+</head>
+
+<body>
+	<div class="ym-layer">
+		<div class="ym-header">
+			<a href="#" onclick="window.history.go(-1)"></a>
+			<span>消息中心</span>
+		</div>
+		<div id="slider" class="mui-slider">
+			<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted" id="segmented">
+				<div class="mui-scroll">
+					<a class="mui-control-item mui-active" href="#item1mobile">
+                    公告
+                </a>
+					<a class="mui-control-item" href="#item2mobile">
+                    消息
+                </a>
+
+				</div>
+			</div>
+
+
+			<div class="mui-slider-group">
+				<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							<div class="content">
+								<img src="image/nomsg.png" alt="">
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id="item2mobile" class="mui-slider-item mui-control-content ">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							<div class="content">
+								<img src="image/nomsg.png" alt="">
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/template.js"></script>
+		<script src="js/base.js"></script>
+		<script src="js/info.js"></script>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+</body>
+
+</html>

@@ -1,0 +1,665 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.ym-layer {
+    /* background: white; */
+    width: 100%;
+}
+/*头部 S  */
+.ym-header {
+    height: 0.88rem;
+    width: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    background-color: #fee34f;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+}
+
+.ym-header p {
+    font-size: 0.34rem;
+    font-family: "PingFangSC-Regular";
+    color: #222222;
+}
+/*头部 E  */
+
+/*搜索 S  */
+.ym-search {
+    height: 0.68rem;
+    background-color: #ededed;
+    width: 100%;
+    line-height: 0.68rem;
+    position: relative;
+    z-index: 100;
+    padding-top: 1.5rem;
+}
+
+.ym-search .search-box {
+    margin: 0 auto;
+    position: relative;
+    height: 0.68rem;
+    top: -0.65rem;
+}
+
+/* .ym-search .address {
+    width: 0.84rem;
+    display: inline-block;
+    position: absolute;
+    margin-left: 0.3rem;
+    float: left;
+    z-index: 12;
+} */
+
+.ym-search .address {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #4e4e4e;
+    background-color: #ededed;
+    margin: 0;
+    padding: 0;
+    font-size: 0.16rem;
+    width: 0.84rem;
+    display: inline-block;
+    position: absolute;
+    margin-left: 0.3rem;
+    float: left;
+    z-index: 12;
+    height: 0.54rem;
+}
+
+.ym-search .address input {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    border: none;
+    margin:0;
+    padding: 0;
+    font-size: 0.2rem;
+    height: 0.48rem;
+    width: 1.2rem;
+    position: relative;
+    font-family: "PingFangSC-Regular";
+    color: #949494;
+    background: #ededed;
+    padding-right: 0.4rem;
+}
+
+.ym-search .address .trigon {
+    position: absolute;
+    height: 0.1rem;
+    width: 0.1rem;
+    top: 0.32rem;
+    right: -0.18rem;
+}
+.ym-search .address ul{
+    width: 120px;
+    position: absolute;
+    top: 0.44rem;
+    left: 0;
+    border: 1px solid #eee;
+    display: none;
+    background: #ededed;
+}
+.ym-search .address li{
+    height: 0.32rem;
+    line-height: 0.32rem;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 0.2rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #949494
+}
+
+.ym-search .address ul li:last-child{
+    border-bottom: none;
+}
+.ym-search .address li.disabled{
+    pointer-events: none;
+}
+.ym-search .address .trigon span:first-of-type {
+    border-top: 5px solid #6b6b6b;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+.ym-search .address .trigon span:last-of-type {
+    border-top: 5px solid #ededed;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -0.01rem;
+}
+
+.ym-search form {
+    position: absolute;
+    margin: 0.12rem 0;
+    height: 0.44rem;
+    background-color: #ededed;
+    color: #acacac;
+    font-family: "PingFang-SC-Regular";
+    font-size: 0.22rem;
+    width: 100%;
+    /* padding-left: 0.52rem; */
+    line-height: 0.44rem;
+    float: left;
+    /* margin-left: 1.6rem; */
+    padding: 0 80px 0 1.5rem;
+}
+
+.ym-search form .search-glass {
+    background: url(../image/sousuolan-fangdajing@2x.png) no-repeat;
+    height: 0.3rem;
+    width: 0.4rem;
+    background-size: 0.3rem;
+    position: absolute;
+    z-index: 12;
+    top: 0.08rem;
+    left: 1.68rem;
+}
+
+.ym-search form input {
+    padding: 0;
+    margin: 0;
+    width: 67%;
+    height: 0.44rem;
+    text-align: left;
+    position: absolute;
+    padding-left: 0.65rem;
+    padding-right: 0.2rem;
+    font-size: 0.22rem;
+    border-radius: 0.22rem;
+    background: #fff;
+}
+
+.ym-search .go-car {
+    position: absolute;
+    right: 0.17rem;
+    height: 100%;
+}
+
+.ym-search .go-car img {
+    width: 55%;
+    float: right;
+    margin-top: 0.2rem;
+}
+
+/*搜索 E  */
+
+/*轮播图 S  */
+.swiper-container{
+    height: 2.58rem;
+}
+.swiper-container img{
+    width: 100%;
+    height: 2.58rem;
+}
+/*轮播图 E  */
+
+/*导航栏  S*/
+
+.ym-nav {
+    padding: 0.24rem 0;
+    border-bottom: 1px solid #f0f0f0;
+    background: #fff;
+}
+
+.ym-nav ul {}
+
+.ym-nav ul li {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.ym-nav ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.ym-nav ul li img {
+    height: 0.75rem;
+}
+.ym-nav ul li p {
+    font-family: "AdobeHeitiStd-Regular";
+    font-size: 0.2rem;
+    color: #363636;
+    margin: 0;
+}
+/*.ym-nav ul li:nth-child(1) p,
+.ym-nav ul li:nth-child(2) p,
+.ym-nav ul li:nth-child(3) p,
+.ym-nav ul li:nth-child(4) p{
+    margin-bottom: 0.3rem;
+}*/
+/*导航栏 E  */
+
+/*约团首选  S*/
+
+.ym-first {
+    /* height: 38.5px; */
+    border-top: 1px solid #f0f0f0;
+    background: #fff;
+}
+
+.ym-first .first-header {
+    padding-top: 0.02rem;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #e1e1e1;
+    height: 0.77rem;
+}
+
+.ym-first .first-header .head {
+    font-family: "PingFang-SC-Medium", "微软雅黑";
+    font-size: 0.26rem;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    line-height: 0.75rem;
+    margin-top: 0.02rem;
+    position: relative;
+}
+
+.ym-first .first-header .head .line {
+    width: 0.44rem;
+    display: inline-block;
+    height: 0;
+    border-top: 1px solid #dbdbdb;
+    margin-bottom: 0.06rem;
+}
+
+.ym-first .first-header .head .point {
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    /* float:left; */
+    display: inline-block;
+    background: #c9c9c9;
+    margin-bottom: 0.04rem;
+}
+
+.ym-first .first-header .head .title {
+    vertical-align: middle;
+}
+
+.ym-first .first-content {
+    padding: 0.22rem 0.18rem;
+    background: #fff;
+    width: 100%;
+}
+
+.ym-first .first-content .hot-product {
+    margin-right: 0.04rem;
+    /* background: #e9f4fe; */
+    height: 1.64rem;
+    width: 49.6%;
+    float: left;
+    margin-top: 0.04rem;
+    /* background: url("../image/xiangjiao@2x.png"); */
+    position: relative;
+}
+.ym-first .first-content .hot-product img{
+    width: 100%;
+    height: 100%;
+}
+
+.ym-first .first-content .hot-product span {
+    display: block;
+}
+
+.ym-first .first-content .hot-product .product-left {
+    margin-left: 0.22rem;
+    float: left;
+    position: absolute;
+    top: 0px;
+    z-index: 12;
+}
+
+.ym-first .first-content .hot-product .must {
+    font-family: "PingFang-SC-Regular";
+    font-size: 0.24rem;
+    color: #0c0e13;
+    margin-top: 0.21rem;
+}
+
+.ym-first .first-content .hot-product .name {
+    font-family: "PingFang-SC-Regular";
+    font-size: 0.2rem;
+    color: #808288;
+    margin-top: 0.18rem;
+    line-height: 0.36rem;
+}
+
+.ym-first .first-content .hot-product .price {
+    font-family: "PingFang-SC-Regular";
+    font-size: 0.2rem;
+    color: #ebaa7e;
+    margin-top: 0.08rem;
+}
+
+.ym-first .first-content .hot-product:nth-child(2n) {
+    margin-right: 0;
+}
+/*约团首选  E */
+
+
+/*今日热推 S */
+
+.ym-today {
+    /* height: 38.5px; */
+    border-top: 2px solid #f0f0f0;
+    background: #fff;
+}
+
+.ym-today .today-header {
+    padding-top: 0.02rem;
+    text-align: center;
+    position: relative;
+}
+
+.ym-today .today-header .head {
+    font-family: "PingFang-SC-Medium", "微软雅黑";
+    font-size: 0.26rem;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    line-height: 0.75rem;
+    /* margin-top: 1px; */
+    position: relative;
+    border-bottom: 1px solid #e1e1e1;
+    /* background: red;  */
+    /* margin-top:200px; */
+}
+
+.ym-today .today-header .line {
+    width: 0.44rem;
+    display: inline-block;
+    height: 0;
+    border-top: 1px solid #dbdbdb;
+    margin-bottom: 0.06rem;
+}
+
+.ym-today .today-header .head .point {
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    /* float:left; */
+    display: inline-block;
+    background: #c9c9c9;
+    margin-bottom: 0.04rem;
+}
+
+.ym-today .today-header .head .title {
+    vertical-align: middle;
+}
+
+.ym-today .today-content {
+    height: 3.77rem;
+    padding: 0.18px 0 0.2px 0;
+    background: #ffd8c5;
+}
+
+.ym-today .today-content .image {
+    height: 100%;
+    width: 40%;
+    display: block;
+    float: left;
+}
+
+.ym-today .today-content .image .title {
+    float: left;
+    height: 100%;
+    width: 100%;
+    background: url("../image/jinrituijian-nianxingaodian@2x.png") no-repeat;
+    background-size: cover;
+}
+
+.ym-today .today-content .image .title span {
+    font-family: "PingFangSC-Regular";
+    font-size: 0.16rem;
+    color: #6f2723;
+    display: block;
+    height: 0.25rem;
+    width: 0.61rem;
+    border: 1px solid #6f2723;
+    border-radius: 0.11rem;
+    text-align: center;
+    line-height: 0.22rem;
+    margin-top: 1.46rem;
+    margin-left: 0.37rem;
+}
+
+.ym-today .today-content .pro {
+    float: right;
+    width: 60%;
+    height: 100%;
+}
+
+.ym-today .today-content .pro .pro-all {
+    width: 50%;
+    float: left;
+    padding: 2%;
+    position: relative;
+}
+
+.ym-today .today-content .pro .pro-all:nth-child(2n+1) {
+    padding: 2% 2% 2% 0;
+    margin-top: 0.1rem;
+}
+
+.ym-today .today-content .pro .pro-all:nth-child(1),
+.ym-today .today-content .pro .pro-all:nth-child(2) {
+    margin-top: 0.03rem;
+}
+
+.ym-today .today-content .pro .pro-all:nth-child(2n) {
+    padding: 2% 2% 2% 0;
+}
+
+.ym-today .today-content .pro .pro1 {
+    width: 1.86rem;
+    height: 1.68rem;
+    background: #fff;
+    border-radius: 10px;
+    /* padding: 0.25rem 0 0 0;   */
+    text-align: center;
+    margin: 0.01rem;
+    float: left;
+    width: 100%;
+    padding: 0.14rem 0.12rem 0 0.12rem;
+    /* height: 100%;    */
+}
+
+.ym-today .today-content .pro .pro1:nth-child(2),
+.ym-today .today-content .pro .pro1:nth-child(1) {
+    margin-bottom: -6px;
+}
+
+.ym-today .today-content .pro .pro1:nth-child(3),
+.ym-today .today-content .pro .pro1:nth-child(4) {
+    margin-top: 8px;
+}
+
+.ym-today .today-content .pro .pro1 img {
+    /* display: block; */
+    /* width: 100%; */
+    /* height: 100%;   */
+}
+
+.ym-today .today-content .pro .pro1 .img {
+    width: 1.44rem;
+    height: 1.11rem;
+    margin: 0.25rem 0.21rem 0 0.21rem;
+    /* background: red; */
+}
+
+.ym-today .today-content .pro .pro1 span {
+    font-family: "PingFang-SC-Regular";
+    font-size: 0.2rem;
+    color: #333;
+    position: relative;
+    display: block;
+    top: -0.17rem;
+}
+/*今日热推 E  */
+
+/*商品部分  S*/
+
+.ym-product {
+    /* padding: 0.78% 1.4% 1.4% 1.4%; */
+    background: #f0f0f0;
+    margin-bottom: 1rem;
+}
+
+.ym-product .similar-goods {
+    float: left;
+    width: 50%;
+    /* height: 450px; */
+    box-sizing: border-box;
+    padding-bottom: 4px;
+    position: relative;
+    padding: 0.14rem 0.18rem 0.09rem 0.18rem;
+}
+
+.ym-product .similar-goods:nth-child(2n+1) {
+    padding-left: 0.18rem;
+    padding-right: 0.06rem;
+}
+
+.ym-product .similar-goods:nth-child(2n) {
+    padding-left: 0.06rem;
+    padding-right: 0.18rem;
+}
+
+.ym-product .similar-product {
+    background-color: white;
+    padding-bottom: 0.1rem;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.ym-product .similar-product .similar-posre {
+    position: relative;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.ym-product .similar-product .similar-posre img {
+    width: 65%;
+}
+
+.ym-product .similar-product .product-text {
+    height: 33px;
+    font-size: 0.24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    color: #202020;
+    /* margin-top: 25px; */
+    line-height: 33px;
+    margin-bottom: 0.23rem;
+    padding: 0 0.2rem;
+    font-family: PingFang-SC-Medium, "微软雅黑";
+}
+
+.ym-product .similar-product .product-info {
+    /* height: 23px; */
+    /* font-size: 13px; */
+    overflow: hidden;
+    font-family: "PingFang-SC-Medium", "微软雅黑";
+    margin-bottom: 0;
+}
+
+.ym-product .similar-product .product-info .product-price {
+    color: #ff6c08;
+    display: inline-block;
+    /* padding: 0 0 22px 19px; */
+    position: relative;
+    top: 0px;
+    left: 0.15rem;
+    margin-bottom: 4px;
+    font-size: 0.22rem;
+    /* height: 25px; */
+    /* line-height: 25px; */
+    font-family: PingFang-SC-Medium, "微软雅黑";
+}
+
+.ym-product .similar-product .command {
+    padding: 0 4px;
+    position: relative;
+    left: 0.12rem;
+    font-size: 0.16rem;
+    color: #8a8a8a;
+    font-family: "PingFang-SC-Medium", "微软雅黑";
+}
+
+.ym-product .similar-product .command b.gocar {
+    position: absolute;
+    right: -0.05rem;
+    bottom: -3px;
+}
+.ym-product .similar-product .command b.gocar img{
+    width: 54%;
+}
+
+.ym-product .similar-product .command i {
+    color: #ff6c08;
+}
+/*商品区 E  */
+
+/*底部功能区 S  */
+.ym-main {
+    border-top: 1px solid #e1e1e1;
+    background: #fff;
+    font-size: 0.28rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    padding-bottom: 0.01rem;
+}
+
+.ym-main li{
+    float: left;
+    width: 20%;
+    padding-top: 0.08rem;
+    text-align: center;
+}
+.ym-main li a {
+    display: block;
+    width: 100%;
+}
+.ym-main li img{
+    width: 28%;
+}
+.ym-main li:nth-child(3) a img{
+    width: 23%;
+}
+.ym-main li:nth-child(4) img{
+    width: 28%;
+}
+.ym-main li a p{
+    font-size: 0.16rem;
+    margin-bottom: 0.07rem;
+    line-height: 0.22rem;
+}
+.ym-main li a p.currentFont {
+    color: #ffd145;
+}
+/*底部功能区  E*/

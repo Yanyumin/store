@@ -1,0 +1,74 @@
+
+.ym-layer{
+    height: 100%;
+    width: 100%;
+    background: #f5f5f5;
+}
+.ym-header{
+    height: 0.88rem;
+    width: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    background-color: #fee34f;
+    /*padding-left: 0.21rem;*/
+    font-size: 0.34rem;
+    font-family: "PingFangSC-Regular";
+    color: #222222;
+    /* position: relative; */
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.ym-header a{
+    /*float: left;*/
+    height: 0.88rem;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    background: url("../image/return.png") no-repeat left ;
+    background-size: 30%;
+    margin-left: 0.2rem;
+}
+.ym-content {
+    position: relative;
+    text-align: center;
+    
+}
+.ym-content img{
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: block;
+}
+.ym-content div{
+    float: left;
+    text-align: center;
+    font-family: "PingFangSC-Regular";
+    font-size: 0.24rem;
+    width: 100%;
+    line-height: 0.4rem;
+    background: #f5f5f5;
+    padding-top: 2.69rem;
+}
+.ym-content p:nth-child(1){
+    font-family: "PingFangSC-Regular";
+    font-size: 0.24rem;
+    color: #6f5845;
+
+}
+.ym-content p:nth-child(1) span{
+    color: #e6d16b;
+}
+.ym-content p:nth-child(2){
+    color: #e6d16b;
+}
+.ym-content p:nth-child(3){
+    font-family: "PingFangSC-Regular";
+    font-size: 0.2rem;
+    color: #d2c0ae;
+    margin-top: 0.23rem;
+}
+.ym-content p:nth-child(4){
+    font-family: "MyriadPro-Regular";
+    font-size: 0.2rem;
+    color: #ddcfc2;
+}

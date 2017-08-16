@@ -1,0 +1,97 @@
+.ym-layer{
+    height: 100%;
+    width: 100%;
+    background: #f0f0f0;
+}
+.ym-header{
+    height: 0.88rem;
+    width: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    background-color: #fee34f;
+    /*padding-left: 0.21rem;*/
+    font-size: 0.34rem;
+    font-family: "PingFangSC-Regular";
+    color: #222222;
+    /* position: relative; */
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.ym-header a{
+    /*float: left;*/
+    height: 0.88rem;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    background: url("../image/return.png") no-repeat left ;
+    background-size: 30%;
+    padding-left: 0.18rem;
+}
+
+/* .ym-content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.ym-content .tab{
+	background: #fff;
+	width: 100%;
+	height: 0.76rem;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	color: #909090;
+	line-height: 0.74rem;
+}
+.ym-content .tab li{
+	width: 50%;
+	text-align: center;
+	height: 100%;
+	float: left;
+    cursor: pointer;
+    font-family: "PingFang-SC-Regular";
+    font-size: 0.2rem;
+} */
+
+.mui-slider{
+    top: 0.88rem;
+}
+.mui-segmented-control.mui-segmented-control-inverted{
+    width: 100%;
+    background: #fff;
+    font-family: "PingFangSC-Regular";
+    font-size: 0.26rem;
+    height: 0.74rem;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+    width: 100%;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+    width: 50%;
+    height: 0.74rem;
+    font-size: 0.26rem;
+    color: #909090;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+    color: #ff3f3f;
+    border-bottom: 2px solid #ff3f3f !important;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+    border-bottom: none;
+    border-top: 1px solid #e1e1e1;
+}
+.mui-table-view{
+    background: #f5f5f5;
+}
+.mui-table-view-cell{
+    padding: 0;
+}
+.mui-table-view-cell .content{
+    width: 100%;
+    text-align: center;
+}
+.mui-table-view-cell .content img{
+    width: 26% !important;
+    margin-top: 2rem;
+
+}

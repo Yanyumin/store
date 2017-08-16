@@ -1,0 +1,123 @@
+.ym-header{
+    height: 0.88rem;
+    width: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    background-color: #fee34f;
+    font-size: 0.34rem;
+    font-family: "PingFangSC-Regular";
+    color: #222222;
+    /* position: relative; */
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    padding-left: 1.2rem;
+}
+
+.ym-header a:first-child {
+    /*float: left; */
+    height: 0.88rem;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    background: url(../image/return.png) no-repeat left;
+    background-size: 30%;
+    margin-left: 0.2rem;
+}
+.ym-header a.record{
+    float: right;
+    font-family: "PingFangSC-Regular";
+    font-size: 0.24rem;
+    color: #222;
+    margin: 0.1rem 0.2rem;
+    height: 80%;
+}
+.ym-content{
+	margin: 0.88rem 0;
+}
+.ym-more{
+	height: 1.26rem;
+	background: #fff;
+	padding: 0 0.18rem;
+	position: relative;
+}
+.ym-more .groupImg{
+	text-align: center;
+	width: 1rem;
+	float: left;
+	margin-top: 0.25rem;
+}
+.ym-more .groupImg p{
+    font-size: 0.2rem;
+    line-height: 0.28rem;
+    color: #3a3a3a;
+}
+.ym-more .tryGroup{
+	margin-left: 0.4rem;
+	float: left;
+	font-size: 0.26rem;
+	margin-top: 0.34rem;
+	color: #464646;
+}
+.ym-more .tryGroup p:last-child{
+	font-size: 0.22rem;
+}
+.ym-more .seeMore{
+	float: right;
+	margin-right: 0;
+	margin-top: 0.73rem;
+	
+}
+.ym-more .seeMore a{
+	display: block;
+	padding: 0.04rem;
+	background: #fce167;
+	font-family: PingFangSC-Light;
+	font-size: 0.2rem;
+	color: #555;
+	border-radius: 0.08rem;
+	text-align: center;
+	
+}
+
+
+
+footer{
+    height: 0.88rem;
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-sizing: content-box;
+}
+footer ul{
+	height: 100%;
+}
+footer li{
+    float: left;
+    width: 25%;
+   height: 100%;
+
+}
+footer li a{
+    display: block;
+    text-align: center;
+    margin-top: 0.08rem;
+}
+footer li a p{
+    font-size: 0.2rem;
+    color: #222;
+    position: relative;
+    top: -1.5rem;
+
+}
+footer p.currentFont{
+    color: #ebd255;
+    position: relative;
+
+}
+
+footer img{
+    margin-bottom: 1.32rem;
+    
+}

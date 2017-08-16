@@ -1,0 +1,285 @@
+html,body{
+    height: 100%;
+}
+.container {
+    position: relative;
+    height: 100%;
+}
+
+.main {
+    /* position: absolute; */
+    /* top: 0.15625rem; */
+    right: 0;
+    /* bottom: 0.1375rem; */
+    left: 0;
+    overflow: scroll;
+}
+
+footer {
+    font-size: 0;
+    height: 0.1375rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+header{
+        height: 0.88rem;
+    width: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    background-color: #fee34f;
+}
+.header {
+    font-size: 0.34rem;
+    font-family: "PingFangSC-Regular";
+    color: #222222;
+}
+
+
+.h2 {
+    font-size: 0.04375rem;
+    padding: 0.04218rem 0 0.03906rem;
+}
+
+.search {
+    font-size: 0;
+    padding: 0.01875rem 0.053125rem 0.018725rem 0.046875rem;
+    height: 0.10625rem;
+    background-color: #ededed;
+    box-sizing: border-box;
+}
+
+.search .dropdown {
+    width: 0.13125rem;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    font-size: 0.04375rem;
+    line-height: 1;
+}
+
+.search input {
+    width: 0.640625rem;
+    height: 0.06875rem;
+    margin-left: 0.03125rem;
+    margin-right: 0.04375rem;
+    padding: 0.015625rem 0.04375rem;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    vertical-align: middle;
+    background-color: #fff;
+    font-size: 0.04375rem;
+    border-radius: 0.04375rem;
+}
+
+.search img {
+    width: 0.05rem;
+    height: 0.05rem;
+    line-height: 0.05rem;
+    vertical-align: middle;
+}
+
+.carousel {
+    font-size: 0;
+}
+
+.carousel img {
+    vertical-align: bottom;
+}
+
+.shop_list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.shop_list li {
+    height: 0.234375rem;
+    width: 0.25rem;
+    text-align: center;
+    font-size: 0.04375rem;
+}
+
+ul li>span {
+    display: inline-block;
+    width: 0.10625rem;
+    height: 0.10625rem;
+    line-height: 0.10625rem;
+    margin: 0.03125rem;
+    background-color: #ccc;
+}
+
+span img {
+    width: 0.10625rem;
+}
+
+.shop_show {
+    border-top: 2px solid #f0f0f0;
+    padding: 0 0.028125rem 0.034375rem;
+}
+
+.no_padd {
+    padding: 0;
+}
+
+.shop_show_list li {
+    width: 0.46875rem;
+    text-align: left;
+    height: 0.5rem;
+    box-sizing: border-box;
+    background-color: #e9f4fe;
+    padding: 0.034375rem 0.028125rem;
+}
+
+.shop_show_list li:nth-child(odd) {
+    margin-bottom: 0.00625rem;
+    margin-right: 0.00625rem;
+}
+
+.shop_content {
+    float: right;
+}
+
+.shop_content img {
+    width: 0.23125rem
+}
+
+.shop_desc h3 {
+    margin: 0;
+    font-size: 0.043725rem;
+    margin-bottom: 0.03125rem;
+}
+
+.shop_desc div {
+    font-size: 0.0375rem;
+    margin-bottom: 0.015625rem;
+}
+
+.shop_warpper {
+    background: rgba(253, 240, 198, 1);
+    background: -moz-linear-gradient(left, rgba(253, 240, 198, 1) 0%, rgba(255, 215, 196, 1) 40%, rgba(255, 215, 196, 1) 41%, rgba(255, 215, 196, 1) 71%, rgba(255, 215, 196, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(253, 240, 198, 1)), color-stop(40%, rgba(255, 215, 196, 1)), color-stop(41%, rgba(255, 215, 196, 1)), color-stop(71%, rgba(255, 215, 196, 1)), color-stop(100%, rgba(255, 215, 196, 1)));
+    background: -webkit-linear-gradient(left, rgba(253, 240, 198, 1) 0%, rgba(255, 215, 196, 1) 40%, rgba(255, 215, 196, 1) 41%, rgba(255, 215, 196, 1) 71%, rgba(255, 215, 196, 1) 100%);
+    background: -o-linear-gradient(left, rgba(253, 240, 198, 1) 0%, rgba(255, 215, 196, 1) 40%, rgba(255, 215, 196, 1) 41%, rgba(255, 215, 196, 1) 71%, rgba(255, 215, 196, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(253, 240, 198, 1) 0%, rgba(255, 215, 196, 1) 40%, rgba(255, 215, 196, 1) 41%, rgba(255, 215, 196, 1) 71%, rgba(255, 215, 196, 1) 100%);
+    background: linear-gradient(to right, rgba(253, 240, 198, 1) 0%, rgba(255, 215, 196, 1) 40%, rgba(255, 215, 196, 1) 41%, rgba(255, 215, 196, 1) 71%, rgba(255, 215, 196, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#fdf0c6', endColorstr='#ffd7c4', GradientType=1);
+    height: 0.6125rem;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0.025rem 0.015625rem;
+}
+
+.shop_warpper .left {
+    width: 0.34375rem;
+    font-size: 0.04375rem;
+    float: left;
+    padding: 0.1875rem 0 0 0.0375rem;
+    box-sizing: border-box;
+}
+
+.shop_warpper .right {
+    width: 0.6rem;
+    float: right;
+}
+
+.lead_list li {
+    box-sizing: border-box;
+    height: 0.275rem;
+    width: 0.296875rem;
+    padding-top: 0.0375rem;
+    border-radius: 0.025rem;
+    background-color: #fff;
+    color: #333;
+}
+
+.lead_list li img {
+    width: 0.23125rem;
+    height: 0.15625rem;
+    vertical-align: bottom;
+}
+
+.lead_list li div {
+    margin-top: 0.015625rem;
+    font-size: 0.0375rem;
+}
+
+.lead_list li:nth-child(even) {
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+}
+
+.lead_list li:nth-child(odd) {
+    margin-bottom: 0.00625rem;
+    margin-right: 0.00625rem;
+}
+
+.heat_list {
+    background: #f0f0f0;
+    padding: 0.021875rem 0.028125rem;
+}
+
+.heat_list li {
+    width: 0.4625rem;
+    height: 0.84375rem;
+    box-sizing: border-box;
+    margin-bottom: 0.028125rem;
+    background: #fff;
+    text-align: left;
+}
+
+.heat_list li:nth-child(odd) {
+    margin-right: 0.01875rem;
+}
+
+.heat_list li .graphic-img {
+    height: 0.446875rem;
+    padding: 0.03939rem 0.03125rem 0.03125rem;
+    box-sizing: border-box;
+}
+
+.heat_list li .graphic-desc {
+    padding: 0.03125rem;
+    box-sizing: border-box;
+}
+
+.graphic-desc .title {
+    font-size: 0.05rem;
+    color: #202020;
+}
+
+.graphic-desc .price {
+    margin-bottom: 0.034375rem;
+    margin-top: 0.0671875rem;
+    font-size: 0.06875rem;
+    color: #ff6c08;
+}
+
+.graphic-desc .comment {
+    font-size: 0.0375rem;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.04375rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav li {
+    width: 0.2rem;
+    text-align: center;
+    height: 0.1375rem;
+    line-height: 0.1375rem;
+}

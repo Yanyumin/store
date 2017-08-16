@@ -1,0 +1,157 @@
+header{
+    height: 0.88rem;
+    width: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.32rem;
+    font-family: "PingFangSC-Medium","微软雅黑";
+    color: #333;
+     position: relative; 
+    padding-top: 0.2rem;
+}
+
+header a {
+    /*float: left;*/
+    height: 0.88rem;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    background: url("../image/return.png") no-repeat left;
+    background-size: 30%;
+    margin-left: 0.18rem;
+}
+.ym-content{
+    text-align: center;
+    width: 100%;
+
+}
+.ym-content .content-top{
+    margin: 0 auto;
+    margin-top: 0.6rem;
+    width: 70%;
+    height: 0.7rem;
+    font-size: 0.28rem;
+    border-radius: 6px;
+    border: 2px solid #fde25c;
+    line-height: 0.7rem;
+}
+.ym-content .content-top a{
+    width: 50%;
+    text-align: center;
+    float: left;
+    color:#fde25c;
+    height: 100%;
+}
+.ym-content .content-top a:last-child{
+    background: #fde25c;
+    color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.ym-content .sign-in {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0.9rem;
+    position: relative;
+}
+.ym-content .sign-in input{
+    height: 1rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    background: #f5f5f5;
+    line-height: 0;
+    color: #666;
+    padding-left: 0.8rem;
+    padding-right: 0.3rem;
+    font-family: "PingFangSC-Regular";
+    font-size: 0.3rem;
+}
+ .ym-content .sign-in input::-webkit-input-placeholder {
+　　color: #c0c0c6;
+    font-size:0.3rem;
+}
+.ym-content .sign-in input::-moz-placeholder {
+　　color: #c0c0c6;
+    font-size:0.3rem;
+} 
+.ym-content .sign-in input:-ms-input-placeholder { 
+　　color: #c0c0c6;
+    font-size:0.3rem;
+} 
+.ym-content .sign-in input#userTel{
+    background: url("../image/shulushoujihao@2x.png") no-repeat left center;
+    background-size: 12%;
+}
+.ym-content .sign-in input[type="text"]{
+    background: url(../image/yanzhengma@2x.png) no-repeat left center;
+    background-size: 19%;
+    width: 70%;
+    text-align: left;
+    margin-top: 0.44rem;
+    position: absolute;
+}
+.ym-content .sign-in input[type="button"]{
+    background: #fde25c;
+    width: 28%;
+    text-align: center;
+    border: none;
+    height: 0.6rem;
+    padding: 0;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 2.248rem;
+    right: 0;
+}
+.ym-content .sign-in input#userPwd{
+    background: url("../image/mima@2x.png") no-repeat left center;
+    background-size: 12%;
+    margin-top: 2rem;
+}
+.ym-content .sign-in input#register{
+    width: 100%;
+    height: 1rem;
+    border-radius: 0.5rem;
+    background: #fde25c;
+    line-height: 1rem;
+    text-align: center;
+    color: #474b5c;
+    border: none;
+    font-size: 0.32rem;
+    font-family: "PingFangSC-Regular";
+    outline:none;
+    margin-top: 1rem;
+}
+.ym-content .sign-in .telMsg{
+    color: red;
+    font-size: 0.2rem;
+    position: absolute;
+    top: 1.56rem;
+    padding: 0.1rem;
+    background: #fde25c;
+    border-radius: 10px;
+    right: 0.5rem;
+    display: none;
+}
+.ym-content .sign-in .textMsg{
+    /* display: none; */
+    color: red;
+    font-size: 0.2rem;
+    position: absolute;
+    top: 3rem;
+    padding: 0.1rem;
+    background: #fde25c;
+    border-radius: 10px;
+    right: 0.5rem;    
+}
+.ym-content .sign-in .pwdMsg{
+    color: red;
+    font-size: 0.2rem;
+    position: absolute;
+    top: 4.56rem;
+    padding: 0.1rem;
+    background: #fde25c;
+    border-radius: 10px;
+    right: 0.2rem;
+    display: none;
+}

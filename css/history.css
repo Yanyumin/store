@@ -1,0 +1,36 @@
+.ym-layer{
+    height: 100%;
+    width: 100%;
+}
+.ym-header{
+    height: 0.88rem;
+    width: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    background-color: #fee34f;
+    /*padding-left: 0.21rem;*/
+    font-size: 0.34rem;
+    font-family: "PingFangSC-Regular";
+    color: #222222;
+    position: relative;
+}
+.ym-header a{
+    /*float: left;*/
+    height: 0.88rem;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    background: url("../image/return.png") no-repeat left ;
+    background-size: 30%;
+    margin-left: 0.2rem;
+}
+
+.ym-content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.ym-content img{
+    margin-top: 2.1rem;
+}

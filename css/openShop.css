@@ -1,0 +1,136 @@
+.ym-layer{
+    width: 100%;
+    /* background: red;
+    height: 500px; */
+}
+header{
+    background: url("../image/kaidian/beijing@2x.png") no-repeat;
+    height: 3.6rem;
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+}
+header .set{
+    height: 0.56rem;
+    width: 0.56rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.3rem;
+    background: url(../image/kaidian/nav-shezhi@2x.png) no-repeat;
+    background-size: 80%;
+}
+header .remind{
+    height: 0.66rem;
+    width: 0.56rem;
+    position: absolute;
+    top: 0.4rem;
+    right: 0.3rem;
+    background: url('../image/kaidian/nav-xiaoxi@2x.png') no-repeat;
+    background-size: 70%;
+}
+header .log-in{
+    position: absolute;
+    top: 1.1rem;
+    width: 100%;
+}
+header .log-in a:first-child{
+    width: 100%;
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-left: 0.28rem;
+}
+header .log-in a:nth-child(2){
+    font-family: "PingFangSC-Regular";
+    font-size: 0.26rem;
+    color: #333;
+    text-align: left;
+    background: rgba(255, 255, 255, .3);
+    position: absolute;
+    padding: 0.04rem;
+    top: 0.62rem;
+    left: 1.6rem;
+}
+header .log-in a:nth-child(3){
+    font-size: 0.24rem;
+    color: #333;
+    text-align: left;
+    background: rgba(255, 255, 255, .3);
+    font-family: PingFangSC-Regular;
+    position: absolute;
+    top: 1.15rem;
+    left: 1.6rem;
+    padding: 0.04rem;
+}
+.ym-content{
+
+}
+.ym-content div{
+    margin-top: 0.16rem;
+    height: 0.78rem;
+    background: #fff;
+    padding: 0 0.18rem;
+    width: 100%;
+    line-height: 0.39rem;
+}
+.ym-content div img{
+    margin: auto;
+    width: 9%;
+    margin-top: 0.15rem;
+    float: left;
+}
+.ym-content div span{
+    float: left;
+    font-family: "PingFangsc-Regular";
+    font-size: 0.26rem;
+    color: #454545;
+    margin-left: 0.3rem;
+    padding-top: 0.2rem;
+}
+.ym-content div a{
+    height: 100%;
+    width: 60%;
+    background: url("../image/kaidian/more.png") right center no-repeat;
+    background-size: 10%;
+    float: right;
+}
+/*底部功能区 S  */
+.ym-main {
+    border-top: 1px solid #e1e1e1;
+    background: #fff;
+    font-size: 0.28rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    padding-bottom: 0.01rem;
+}
+
+.ym-main li{
+    float: left;
+    width: 20%;
+    padding-top: 0.08rem;
+    text-align: center;
+}
+.ym-main li a {
+    display: block;
+    width: 100%;
+}
+.ym-main li img{
+    width: 28%;
+}
+.ym-main li:nth-child(3) a img{
+    width: 23%;
+}
+.ym-main li:nth-child(4) img{
+    width: 28%;
+}
+.ym-main li a p{
+    font-size: 0.16rem;
+    margin-bottom: 0.07rem;
+    line-height: 0.22rem;
+}
+.ym-main li a p.currentFont {
+    color: #ffd145;
+}
+/*底部功能区  E*/
